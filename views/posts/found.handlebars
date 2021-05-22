@@ -1,0 +1,14 @@
+    {{#if found}}
+    <h1>{{title}}</h1>
+    <h2>{{searchTerm}}</h2>
+    <ul>
+        {{#each found}}  
+        <li>
+            <a href="shows/{{show.id}}">{{show.name}}</a>
+        </li>
+        {{/each}}
+    </ul>
+    <a href="/">Make another search</a>
+    {{else}}
+    <p class="not-found">We're sorry, but no results were found for {{searchTerm}}.</p>
+    {{/if}}

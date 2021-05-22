@@ -1,0 +1,37 @@
+<div class="show">
+    <h1>{{show.name}}</h1>
+    <img alt="{{show.name}}" src={{show.image.medium}}>
+    <dl>
+        {{#if show.language}}
+        <dt>Language</dt>
+        <dd>{{show.language}}</dd>
+        {{/if}}
+
+        {{#if show.genres}}
+        <dt>Genres</dt>
+        <dd>
+            <ul>
+                {{#each show.genres}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </dd>
+        {{/if}}
+
+        {{#if show.rating.average}}
+        <dt>Average Rating</dt>
+        <dd>{{show.rating.average}}</dd>
+        {{/if}}
+        
+        {{#if show.network.name}}
+        <dt>Network</dt>
+        <dd>{{show.network.name}}</dd>
+        {{/if}}
+
+        {{#if show.summary}}
+        <dt>Summary</dt>
+        <dd>{{{show.summary}}}</dd>
+        {{/if}}
+        
+    </dl>
+</div>

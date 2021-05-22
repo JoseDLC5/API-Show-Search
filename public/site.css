@@ -1,0 +1,94 @@
+html,
+body {
+    font-size: 16pt;
+}
+
+body {
+    background: #adadad;
+    font-family: Roboto, sans-serif;
+    color: rgb(63, 63, 63);
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+h1 {
+    text-decoration: black dashed underline overline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+.error {
+    background-color: black;
+    font-size: xx-large;
+    color: red;
+    text-decoration: red wavy underline overline;
+}
+
+:visited {
+    color: green;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.show * {
+    color: black;
+}
+
+dt {
+    margin-bottom: 5px;
+}
+
+dd {
+    margin-bottom: 5px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.not-found {
+    color: rgb(0, 251, 255);
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-decoration: cyan solid underline;
+}
